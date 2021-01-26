@@ -16,7 +16,7 @@ h1 {
 
 .container {
     width: 85%;
-    margin: 2rem auto;
+    margin: auto;
 }
 
 /* HEADER section */
@@ -82,6 +82,7 @@ header a {
 .promotion {
     display: grid;
     grid-template: repeat(2, 1fr) repeat(4, 1fr);
+    margin: 3rem auto;
 }
 
 .promotion div {
@@ -186,21 +187,22 @@ header a {
 /* TREND section */
 .trend {
     background-color: #f9f8f8;
+    padding-bottom: 2rem;
 }
 
 .trend h1 {
     text-align: center;
     color: #1565c0;
+    padding: 2rem 0;
 }
 
 .trend__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 1rem 0;
+    gap: 20px;
 }
 
 .trend__item {
-    margin: 10px;
     position: relative;
     text-align: center;
 }
@@ -232,4 +234,61 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* FOOTER section */
+.footer__firstRow {
+    background-color: #1565c0;
+}
+
+.footer__cols {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.footer__cols .footer__col:first-child {
+    margin-right: 2rem;
+}
+
+.footer__col {
+    flex: 1;
+    color: white;
+}
+
+.footer__col h2 {
+    margin-bottom: 2rem;
+}
+
+.footer__col li {
+    list-style-type: none;
+    padding-bottom: 1.2rem;
+}
+
+.footer__col a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__cols .footer__col:nth-child(3) li:nth-child(4) {
+    padding: 0;
+}
+
+.footer__secondRow {
+    background-color: black;
+
+}
+
+.footer__firstRow i {
+    width: 0.5rem;
+    margin-right: 2rem;
+}
+
+.footer__secondRow__content {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
 }
