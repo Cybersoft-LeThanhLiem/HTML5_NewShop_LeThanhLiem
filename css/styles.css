@@ -152,3 +152,84 @@ header a {
     margin: 0.5rem auto;
     cursor: pointer;
 }
+
+/* DISCOUNT section */
+.discount {
+    background-image: url('../img/ban1.jpg');
+    height: 500px;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount__20 {
+    font-size: 3rem;
+}
+
+.discount #trending {
+    font-size: 4.5rem;
+    margin: 3rem auto;
+}
+
+.discount button {
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    background-color: #f1a228;
+    border: none;
+    cursor: pointer;
+}
+
+/* TREND section */
+.trend {
+    background-color: #f9f8f8;
+}
+
+.trend h1 {
+    text-align: center;
+    color: #1565c0;
+}
+
+.trend__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem 0;
+}
+
+.trend__item {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.trend__item img {
+    width: 100%;
+    display: block;
+}
+
+.trend__item .text-overlay {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(21, 101, 192, 0.8) ;
+    width: 100%;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.trend__50 {
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: white;
+    background-color: rgb(21, 101, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
