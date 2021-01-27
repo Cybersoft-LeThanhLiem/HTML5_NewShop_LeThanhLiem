@@ -105,7 +105,7 @@ header a {
 /* NEW PRODUCTS section */
 .newProducts {
     background-color: #f9f8f8;
-    padding: 1rem 0;
+    padding: 0.5rem 0 3rem;
 }
 
 .newProducts h1 {
@@ -184,10 +184,61 @@ header a {
     cursor: pointer;
 }
 
+/* NEW ARRIVALS section */
+.arrivals {
+    padding: 0 0 3rem;
+}
+
+.arrivals h1 {
+    color: #1565c0;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.arrivals h2 {
+    color: #1565c0;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.arrivals h4 {
+    margin: 1rem auto;
+}
+
+.arrivals__content {
+    display: flex;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.arrivals__item {
+    border: solid 3px #d9d9d9;
+    margin-left: 15px;
+}
+
+.normal-price {
+    text-decoration: line-through;
+    font-size: 0.83rem;
+    color: #a49689;
+}
+
+.arrivals h5 {
+    display: inline;
+}
+
+.arrivals button {
+    padding: 8px 30px;
+    background: none;
+    color: #1565c0;
+    border:  solid 3px #f3bc67;
+    margin: 0.5rem auto;
+    cursor: pointer;
+}
+
 /* TREND section */
 .trend {
     background-color: #f9f8f8;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 .trend h1 {
